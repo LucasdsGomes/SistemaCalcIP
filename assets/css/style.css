@@ -1,0 +1,108 @@
+#logoimg {
+  max-width: 100px;
+  height: auto;
+  display:block;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #003300;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-align: justify;
+  font-size: 1rem;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#menu {
+  background-color: aqua;
+}
+
+.page-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(120deg, #00ff00, #003300, #000);
+  background-size: 300% 300%;
+  animation: wave 10s ease infinite;
+}
+@keyframes wave {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+.exampleIP {
+  text-align: left;
+  font-size: 1rem;
+}
+
+#sub {
+  font-size: 1.10rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:rgb(252, 239, 239);
+}
+
+.custom-card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+  transform: translateY(-10px);
+}
+
+.custom-card-header {
+  background-color: #04ec10;
+  color: #fcfcfc;
+  font-size: 1.30rem;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.custom-card-body {
+  background-color: #f8f9fa;
+}
+
+.custom-card-footer {
+  background-color: #e9ecef;
+  font-size: 1.20rem;
+}
+
+.custom-card-title {
+  text-align: left;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+
