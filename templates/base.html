@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculadora de IP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="../assets/images/iconIp.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/style.css">
+  </head>
+  <body>
+    <div class="page-background"></div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-auto" href="/">
+                <img src="../assets/images/meuip_logo.png" alt="Logo" id="logoimg">
+            </a>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <main>
+            <div class="card custom-card text-center">
+                <div class="card-header custom-card-header">
+                  Calcule seu IP
+                <h5 id="sub">Descubra detalhes do seu IP</h5>
+                </div>
+                <div class="card-body custom-card-body">
+                <h5 class="card-title custom-card-title">Endereço de IP:</h5>
+                <input type="text" class="form-control" placeholder="XXX.XXX.X.XX" id="ipInput" maxlength="16">
+                <h5 class="card-title custom-card-title mt-3">Máscara ou CIDR:</h5>
+                <select class="form-select custom-select" aria-label="Máscara ou CIDR">
+                    <option disabled selected>Escolha uma opção</option>
+                    <option value="8">255.0.0.0 /8</option>
+                    <option value="9">255.128.0.0 /9</option>
+                    <option value="10">255.192.0.0 /10</option>
+                    <option value="11">255.224.0.0 /11</option>
+                    <option value="12">255.240.0.0 /12</option>
+                    <option value="13">255.248.0.0 /13</option>
+                    <option value="14">255.252.0.0 /14</option>
+                    <option value="15">255.254.0.0 /15</option>
+                    <option value="16">255.255.0.0 /16</option>
+                    <option value="17">255.255.128.0 /17</option>
+                    <option value="18">255.255.192.0 /18</option>
+                    <option value="19">255.255.224.0 /19</option>
+                    <option value="20">255.255.240.0 /20</option>
+                    <option value="21">255.255.248.0 /21</option>
+                    <option value="22">255.255.252.0 /22</option>
+                    <option value="23">255.255.254.0 /23</option>
+                    <option value="24">255.255.255.0 /24</option>
+                    <option value="25">255.255.255.128 /25</option>
+                    <option value="26">255.255.255.192 /26</option>
+                    <option value="27">255.255.255.224 /27</option>
+                    <option value="28">255.255.255.240 /28</option>
+                    <option value="29">255.255.255.248 /29</option>
+                    <option value="30">255.255.255.252 /30</option>
+                    <option value="31">255.255.255.254 /31</option>
+                    <option value="32">255.255.255.255 /32</option>
+                </select>
+                  <h5 class="mt-3 exampleIP">Ex: 192.168.0.10 255.255.255.0 ou 192.168.0.10 /24</h5>
+                  <button type="submit" id="botaoVerificar" class="btn btn-success">Verificar IP</a>
+                </div>
+                <div class="card-footer custom-card-footer text-body-secondary fw-bold">
+                  Informações sobre a rede
+                    <ul class="list-group">
+                        <li>Endereço IP: </li>
+                        <li class="">Máscara de Sub-Rede: </li>
+                        <li class="">CIDR: </li>
+                        <li class="">Classe de IPs: </li>
+                        <li class="">Tipo: </li>
+                        <li class="">Nº de Hosts / Sub-Rede: </li>
+                        <li><hr class="dropdown-divider"></li>
+                        <h5 class="mt-3 exampleIP"></h5>
+                        <li class="">Endereço da Rede: </li>
+                        <li class="">Intervalo de Hosts: </li>
+                        <li class="">Broadcast: </li>
+                    </ul>
+                </div>
+              </div>
+        </main>
+    </div>
+    <footer class="footer text-center mt-5 bg-black">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/LucasdsGomes" target="_blank"><i class="fab fa-linkedin mx-2"></i></a>
+            <a href="mailto:dsglucass@gmail.com"><i class="fas fa-envelope mx-2"></i></a>
+            <a href="https://github.com/LucasdsGomes" target="_blank"><i class="fab fa-github mx-2"></i></a>
+        </div>
+        <p>&copy; 2024 My CalcIP LG. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../assets/js/script.js"></script>
+  </body>
+</html>
