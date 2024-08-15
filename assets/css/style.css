@@ -19,6 +19,7 @@ li {
 }
 
 .footer {
+  position: fixed;
   bottom: 0;
   width: 100%;
   background-color: #f1f1f1;
@@ -75,9 +76,9 @@ p {
 }
 
 .custom-card-header {
-  background-color: #04ec10;
+  background-color: #058a17;
   color: #fcfcfc;
-  font-size: 1.30rem;
+  font-size: 1.50rem;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
