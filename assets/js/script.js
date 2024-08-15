@@ -98,16 +98,16 @@ document.addEventListener("DOMContentLoaded", function () {
       const numeroHosts = Math.pow(2, 32 - cidrEscolhido) - 2;
 
       listaResultados.innerHTML = `
-          <li style="color:green">Endereço IP: ${ipDigitado}</li>
-          <li style="color:green">Máscara de Sub-Rede: ${mascaraSubrede}</li>
-          <li style="color:green">CIDR: /${cidrEscolhido}</li>
-          <li style="color:green">Classe de IPs: ${classeIp}</li>
-          <li style="color:green">Tipo: ${tipoIp}</li>
-          <li style="color:green">Nº de Hosts / Sub-Rede: ${numeroHosts}</li>
+          <li>Endereço IP: ${ipDigitado}</li>
+          <li>Máscara de Sub-Rede: ${mascaraSubrede}</li>
+          <li>CIDR: /${cidrEscolhido}</li>
+          <li>Classe de IPs: ${classeIp}</li>
+          <li>Tipo: ${tipoIp}</li>
+          <li>Nº de Hosts / Sub-Rede: ${numeroHosts}</li>
           <hr class="dropdown-divider">
-          <li style="color:green">Endereço da Rede: ${enderecoRede}</li>
-          <li style="color:green">Intervalo de Hosts: ${intervaloHosts}</li>
-          <li style="color:green">Broadcast: ${enderecoBroadcast}</li>
+          <li>Endereço da Rede: ${enderecoRede}</li>
+          <li>Intervalo de Hosts: ${intervaloHosts}</li>
+          <li>Broadcast: ${enderecoBroadcast}</li>
       `;
   });
 });
