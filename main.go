@@ -41,6 +41,7 @@ func main() {
 	fs := http.FileServer(http.Dir("assets"))
 	http.Handle("/assets/", http.StripPrefix("/assets/", fs))
 
+	//DSADS
 	// Rota para a página inicial
 	http.HandleFunc("/", baseHandler)
 	// Rota para a página secundária de cálculo
