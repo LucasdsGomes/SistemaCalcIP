@@ -1,6 +1,6 @@
 *Calculadora de IP*
 
-Este projeto é uma aplicação web simples que implementa uma Calculadora de IP. Desenvolvida em GoLang, a aplicação permite calcular e verificar informações relacionadas a endereços IP e sub-redes. Ela conta com uma interface web básica, construída utilizando HTML e CSS, e utiliza PostgreSQL para persistir dados.
+Este projeto é uma aplicação web simples que implementa uma Calculadora de IP. Desenvolvida em JavaScript, com um servidor em Golang a aplicação permite calcular e verificar informações relacionadas a endereços IP e sub-redes. Ela conta com uma interface web básica, construída utilizando HTML e CSS para persistir dados.
 
 ![image](https://github.com/user-attachments/assets/3c4401b6-6939-47d9-bf62-138236ccd5d8)
 
